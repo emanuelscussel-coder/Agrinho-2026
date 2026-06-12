@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Assistente da Lavoura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🌾 Assistente da Lavoura</h1>
+  <p>Sistema inteligente de apoio agrícola (simulado)</p>
+</header>
+
+<section class="painel">
+
+  <div class="card">
+    <h2>🌱 Cultura Plantada</h2>
+    <p id="cultura">Milho</p>
+  </div>
+
+  <div class="card">
+    <h2>🚜 Tipo de Roça</h2>
+    <p id="roca">Sequeiro</p>
+  </div>
+
+  <div class="card">
+    <h2>🌧 Previsão de Chuva</h2>
+    <p id="chuva">--</p>
+  </div>
+
+  <div class="card">
+    <h2>🧪 Necessidade de Calcário</h2>
+    <p id="calcario">--</p>
+  </div>
+
+  <div class="card">
+    <h2>🏜 Necessidade de oreia</h2>
+    <p id="oreia">--</p>
+  </div>
+
+  <div class="card">
+    <h2>🌾 Previsão de Colheita</h2>
+    <p id="colheita">-- dias</p>
+  </div>
+
+</section>
+
+<section class="acao">
+  <button onclick="analisar()">🔍 Analisar Lavoura</button>
+</section>
+
+<section class="alerta">
+  <h2>⚠ Recomendação do Sistema</h2>
+  <p id="recomendacao">Aguardando análise...</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
